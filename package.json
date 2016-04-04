@@ -1,0 +1,42 @@
+{
+    "name": "jenkins-react-components",
+    "version": "0.0.2",
+    "description": "",
+    "author": "",
+    "license": "MIT",
+    
+    "devDependencies": {
+        "react-js-builder": "0.0.2"
+    },
+    
+    "dependencies": {
+        "jenkins-js-modules": "^1.4.0",
+        "bootstrap-detached": "^3.3.4-v6",
+        "moment": "^2.10.6",
+        "window-handle": "0.0.6",
+        "prototype-stringify-hack": "latest"
+    },
+    
+    "peerDependencies": {
+        "jenkins-js-modules": "^1.4.0",
+        "bootstrap-detached": "^3.3.4-v6",
+        "moment": "^2.10.6",
+        "react": "^0.14.6",
+        "react-dom": "^0.14.6",
+        "react-addons-css-transition-group": "^0.14.6",
+        "window-handle": "0.0.6"
+    },
+    
+    "main": "target/generated-adjuncts/jenkins-react-components.js",
+    
+    "files": [
+        "target/generated-adjuncts"
+    ],
+    
+    "scripts": {
+         "build": "react-js-builder build-component-library",
+         "test": "react-js-builder test",
+         "watch": "react-js-builder watch",
+         "prepublish": "react-js-builder build-component-library"
+    }
+}
