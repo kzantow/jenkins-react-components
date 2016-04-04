@@ -1,12 +1,12 @@
 {
     "name": "jenkins-react-components",
-    "version": "0.0.2",
+    "version": "0.0.1",
     "description": "",
     "author": "",
     "license": "MIT",
     
     "devDependencies": {
-        "react-js-builder": "0.0.2"
+        "jenkins-react-js-builder": "0.0.1"
     },
     
     "dependencies": {
@@ -34,9 +34,9 @@
     ],
     
     "scripts": {
-         "build": "react-js-builder build-component-library",
-         "test": "react-js-builder test",
-         "watch": "react-js-builder watch",
-         "prepublish": "react-js-builder build-component-library"
+         "build": "jenkins-react-js-builder build-component-library",
+         "test": "jenkins-react-js-builder test",
+         "watch": "jenkins-react-js-builder watch",
+         "prepublish": "jenkins-react-js-builder build-component-library"
     }
 }
